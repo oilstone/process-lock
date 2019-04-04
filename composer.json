@@ -1,0 +1,23 @@
+{
+  "name": "oilstone/process-lock",
+  "description": "A simple task locking mechanism using a Redis cache",
+  "homepage": "https://github.com/oilstone/process-lock",
+  "authors": [
+    {
+      "name": "Online Solutions",
+      "email": "support@onlinesolutionsltd.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "illuminate/support": "^5.5",
+    "oilstone/logging": "^1.0",
+    "oilstone/redis-cache": "^1.0",
+    "texthtml/php-lock-redis": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oilstone\\ProcessLock\\": "src"
+    }
+  }
+}
