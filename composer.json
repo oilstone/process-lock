@@ -2,6 +2,7 @@
   "name": "oilstone/process-lock",
   "description": "A simple task locking mechanism using a Redis cache",
   "homepage": "https://github.com/oilstone/process-lock",
+  "license": "MIT",
   "authors": [
     {
       "name": "Online Solutions",
