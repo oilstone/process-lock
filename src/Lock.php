@@ -67,7 +67,7 @@ class Lock
     {
         $factory = new RedisSimpleLockFactory($this->cache->client(), $this->scriptLifetime * 1000, $this->log->enabled() ? $this->log->logger() : null);
 
-        $lock = $factory->create(Str::slug(basename($this->fileName, '.php')));
+        $lock = $factory->create('internal:process-lock:' . Str::slug(basename($this->fileName, '.php')));
 
         try {
             $lock->acquire();
