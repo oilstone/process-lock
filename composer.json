@@ -13,7 +13,7 @@
     "php": ">=7.1.0",
     "illuminate/support": "^5.5",
     "oilstone/logging": "^1.0",
-    "oilstone/redis-cache": "^2.0",
+    "oilstone/redis-cache": "^1.0",
     "texthtml/php-lock-redis": "1.1.1"
   },
   "autoload": {
